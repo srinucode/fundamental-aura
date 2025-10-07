@@ -50,6 +50,16 @@
   background: #ff6347;
 }
 
+.courses-container {
+  display: flex;
+  justify-content: center; /* center row */
+  gap: 20px;               /* space between cards */
+  flex-wrap: wrap;          /* allow wrap on small screens */
+}
+
+
+
+
 /* Responsive adjustments */
 @media (max-width: 1024px) {
   .home-content h1 {
