@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/fundamentals-aura/static/css/main.3d23c8b9.css",
-    "main.js": "/fundamentals-aura/static/js/main.85e06e13.js",
+    "main.css": "/fundamentals-aura/static/css/main.0149fccd.css",
+    "main.js": "/fundamentals-aura/static/js/main.fbe6c333.js",
     "static/js/453.74c3446d.chunk.js": "/fundamentals-aura/static/js/453.74c3446d.chunk.js",
     "static/media/background2.png": "/fundamentals-aura/static/media/background2.ae34dfe809ad10e9e3ab.png",
     "index.html": "/fundamentals-aura/index.html",
-    "main.3d23c8b9.css.map": "/fundamentals-aura/static/css/main.3d23c8b9.css.map",
-    "main.85e06e13.js.map": "/fundamentals-aura/static/js/main.85e06e13.js.map",
+    "main.0149fccd.css.map": "/fundamentals-aura/static/css/main.0149fccd.css.map",
+    "main.fbe6c333.js.map": "/fundamentals-aura/static/js/main.fbe6c333.js.map",
     "453.74c3446d.chunk.js.map": "/fundamentals-aura/static/js/453.74c3446d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d23c8b9.css",
-    "static/js/main.85e06e13.js"
+    "static/css/main.0149fccd.css",
+    "static/js/main.fbe6c333.js"
   ]
 }
