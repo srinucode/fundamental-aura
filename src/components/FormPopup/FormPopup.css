@@ -1,0 +1,146 @@
+/* 🔹 Background overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(3px);
+}
+
+/* 🔹 Popup container */
+.popup-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  animation: slideUp 0.3s ease-in-out;
+}
+
+/* Smooth entry animation */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.popup-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+/* 🔹 Form styling */
+.popup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.popup-form input {
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.popup-form input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 4px rgba(76, 175, 80, 0.3);
+}
+
+/* 🔹 Buttons */
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.popup-buttons button {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Submit button */
+.popup-buttons button[type="submit"] {
+  background: #4caf50;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+
+.popup-buttons button[type="submit"]:hover {
+  background: #45a049;
+}
+
+/* Cancel button */
+.popup-buttons .cancel-btn {
+  background: #f44336;
+  color: #fff;
+}
+
+.popup-buttons .cancel-btn:hover {
+  background: #d32f2f;
+}
+
+/* 🔹 Responsiveness */
+@media (max-width: 768px) {
+  .popup-container {
+    width: 85%;
+    padding: 1.5rem;
+  }
+
+  .popup-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .popup-form input {
+    font-size: 13px;
+    padding: 8px 10px;
+  }
+
+  .popup-buttons button {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .popup-container {
+    width: 95%;
+    padding: 1.2rem;
+    border-radius: 10px;
+  }
+
+  .popup-container h2 {
+    font-size: 1.1rem;
+  }
+
+  .popup-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .popup-buttons button {
+    width: 100%;
+    margin-right: 0;
+  }
+}
