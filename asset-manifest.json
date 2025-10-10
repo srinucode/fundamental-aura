@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/fundamentals-aura/static/css/main.86b6750a.css",
-    "main.js": "/fundamentals-aura/static/js/main.fc58b065.js",
+    "main.js": "/fundamentals-aura/static/js/main.6a7fa54d.js",
     "static/js/453.74c3446d.chunk.js": "/fundamentals-aura/static/js/453.74c3446d.chunk.js",
     "static/media/background2.png": "/fundamentals-aura/static/media/background2.ae34dfe809ad10e9e3ab.png",
     "index.html": "/fundamentals-aura/index.html",
     "main.86b6750a.css.map": "/fundamentals-aura/static/css/main.86b6750a.css.map",
-    "main.fc58b065.js.map": "/fundamentals-aura/static/js/main.fc58b065.js.map",
+    "main.6a7fa54d.js.map": "/fundamentals-aura/static/js/main.6a7fa54d.js.map",
     "453.74c3446d.chunk.js.map": "/fundamentals-aura/static/js/453.74c3446d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86b6750a.css",
-    "static/js/main.fc58b065.js"
+    "static/js/main.6a7fa54d.js"
   ]
 }
