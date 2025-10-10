@@ -26,7 +26,7 @@ const Home = () => {
             title="Complete Communication"
             content="A full-spectrum communication course covering theory and practical skills and real-world applications."
             buttonText="Know More"
-            onEnroll={() => handleEnroll("Complete Communication Course")}
+            onEnroll={() => handleEnroll("Complete Communication")}
           />
           <Course
             title="SAP CPI (Cloud Platform Integration)"

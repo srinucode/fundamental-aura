@@ -33,13 +33,14 @@ const FormPopup = ({ course, onClose }) => {
           alert("✅ Form submitted successfully!");
                // ✅ Automatically trigger PDF download
         let pdfFile = "";
-        if (course === "Web Development") pdfFile = "/pdfs/Communication Development Course.pdf";
-        else if (course === "Artificial Intelligence") pdfFile = "/pdfs/Communication Development Course.pdf";
-
+        if (course === "Complete Communication") pdfFile = process.env.PUBLIC_URL + "/pdfs/Communication.pdf";
+        else if (course === "Artificial Intelligence") pdfFile = process.env.PUBLIC_URL + "/pdfs/Communication Development Course.pdf";
+        console.log("Value pdfFile ",pdfFile);
         if (pdfFile) {
+          console.log("pdf");
           const link = document.createElement("a");
           link.href = pdfFile;
-          link.download = pdfFile.split("/").pop(); // downloads with correct name
+          link.target = "_blank"; // 👉 open in new tab
           document.body.appendChild(link);
           link.click();
           document.body.removeChild(link);
